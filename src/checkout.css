@@ -1,0 +1,76 @@
+.checkout{
+    display: flex;
+}
+
+.checkoutProduct {
+    background-color: white;
+    border-bottom: #333 dashed 1px;
+    padding: 1.2rem 1rem;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.checkoutAd {
+    width: 100%;
+    max-height: 200px;
+    margin-bottom: 10px;
+} 
+
+.checkoutProduct {
+    display: flex;
+}
+
+.checkoutProduct_image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.checkoutProduct_info {
+    padding-left: 20px;
+}
+
+.checkoutProduct_info > button {
+    padding: 6px;
+    color: rgb(145, 252, 252);
+    background-color: rgb(4, 122, 131);
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.checkout_ratings {
+    display: flex;
+}
+
+.checkoutProduct_title {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.subtotal > button {
+    background-color: rgb(4, 122, 131);
+    color: rgb(145, 252, 252);
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+}

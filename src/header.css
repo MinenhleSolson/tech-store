@@ -1,0 +1,72 @@
+.header {
+    background-color: rgb(4, 122, 131);
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+} 
+
+.headerLogo {
+    width: 100%;
+    color: rgb(145, 252, 252);
+    margin: 0px 8px;
+    margin-top: 12px ;
+    object-fit: contain;
+}
+
+.headerLink {
+    text-decoration: none;
+    color: rgb(145, 252, 252);;
+}
+
+.searchIcon {
+    color: rgb(4, 122, 131);
+    background-color: rgb(145, 252, 252);
+    padding: 5px;
+    height: 22px !important;
+}
+
+.headerSearch {
+    display: flex;
+    flex: 1;
+    background-color: rgb(4, 122, 131);
+}
+
+.SearchBox {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    background-color: rgb(4, 122, 131);
+}
+
+.headerNav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headerOption {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.headerOption1{
+    font-size: 10px;
+}
+.headerOption2{
+    font-size: 14px;
+    font-weight: bolder ;
+}
+
+.shoppingCart {
+    display: flex;
+    align-items: center;
+}
+
+.count {
+    margin-left: 10px;
+    margin-right: 10px;
+}
