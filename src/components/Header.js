@@ -28,8 +28,8 @@ function Header() {
   <span className="headerOption2 count" >{cart?.length}</span>
         </div>
         </Link>
-
-        </div>
+    
+      </div>
 
       </nav>
   )
