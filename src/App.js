@@ -21,15 +21,18 @@ function App() {
     <Router>
     <div className='p-3'>
     <Switch>
+
         <Route exact path="/">
           <Header />
           <Home />
         </Route>
+    
         <Route path="/checkout">
         <Header />
           <Checkout />
         </Route>
       </Switch>
+    
     </div>
        
     </Router>
