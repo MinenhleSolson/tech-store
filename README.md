@@ -11,7 +11,6 @@ I really enjoyed creating this project what became a challenge for was how a my 
 I knew Redux was perfect for this situation but I needed something Light weight so I ended up using the React Context API.
 
 ## Author
-
 * **Minenhle Solson Cele** - *Full-Stack Software Developer*
 *{
   margin: 0;
@@ -51,12 +50,6 @@ body{
   align-items: center;
 }
 
-.wrapper .form .inputfield label{
-   width: 200px;
-   color: #757575;
-   margin-right: 10px;
-  font-size: 14px;
-}
 
 .wrapper .form .inputfield .input,
 .wrapper .form .inputfield .textarea{
