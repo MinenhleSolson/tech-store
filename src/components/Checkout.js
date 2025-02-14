@@ -13,13 +13,14 @@ function Checkout() {
   return (
     <div className="checkout">
       <div className="checkoutLeft">
+    
       <img className="checkoutAd" src="https://www.evetech.co.za/repository/ProductImages/Nvidia-R6S-Promotion-Landing-Page-961px-v2_01.jpg"
        alt="add" />
        {cart?.length === 0 ?  (
       <div>
         <h2>Your Shopping Cart Is Empty</h2>
         <p>
-          You have no items in your cart.
+          You Have No Items In Your Cart.
           "Add to cart" next to the items
         </p>
       </div>
