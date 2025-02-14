@@ -12,9 +12,10 @@ function Home() {
             />
 
 <div className="homeRow">   
+                    
         <Products
         id="001"
-        title="Asus ZenBook Pro Duo UX581 15.6” 4K UHD NanoEdge Bezel Touch, Intel Core i7-9750HT"
+        title="Asus ZenBook Pro Duo UX581 15.6” 4K UHD NanoEdge Bezel Touch, Intel Core i7"
         price={47990}
         ratings={4}
         image="https://images-na.ssl-images-amazon.com/images/I/81deSneMCOL._AC_SX679_.jpg"
